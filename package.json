@@ -1,6 +1,6 @@
 {
   "name": "dropped-frames",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Repair dropped frames from an image sequence",
   "main": "index.js",
   "bin": {
