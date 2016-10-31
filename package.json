@@ -1,0 +1,56 @@
+{
+  "name": "dropped-frames",
+  "version": "0.0.0",
+  "description": "Repair dropped frames from an image sequence",
+  "main": "index.js",
+  "bin": {
+    "dropped-frames": "cli.js"
+  },
+  "keywords": [
+    "cinemadng",
+    "cinema",
+    "dng",
+    "canon",
+    "red",
+    "blackmagic",
+    "black magic",
+    "cfast",
+    "ssd",
+    "data recovery",
+    "recovery",
+    "recover",
+    "repair",
+    "raw",
+    "video",
+    "file",
+    "image sequence",
+    "image",
+    "sequence",
+    "dropped frames",
+    "dropped",
+    "frames"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "globby": "^6.0.0",
+    "left-pad": "^1.1.3",
+    "shelljs": "^0.7.4",
+    "taketalk": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  },
+  "standard": {
+    "globals": [
+      "cp",
+      "exec",
+      "mkdir",
+      "test"
+    ]
+  },
+  "enginges": {
+    "node": ">=6"
+  }
+}
